@@ -5,7 +5,6 @@ import About from './features/About/About'
 import Experience from './features/Experience/Experience'
 import Services from './features/Services/Services'
 import Portfolio from './features/Portfolio/Portfolio'
-import Endorsement from './features/Endorsement/Endorsement'
 import Contact from './features/Contact/Contact'
 import Footer from './features/Footer/Footer'
 
@@ -19,7 +18,6 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Endorsement />
       <Contact />
       <Footer />
 </>
