@@ -19,6 +19,8 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
+  --tansition: all 400ms ease;
+
   --container-width-lg: 75%;
   --container-width-md: 80%;
   --container-width-sm: 90%;
@@ -39,4 +41,94 @@ body {
   color: var(--color-white);
   line-height: 1.8;
   background-image: url(../src/assets/Image/bg-texture.png);
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+section > h2, section > h5 {
+  text-align:  center;
+  color : var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom:  3rem;
+}
+
+.text-light{
+  color: var(--ccolor-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width : max-content;
+  display:  inline-block;
+  color: var(--color-primary);
+  border-radius: 0.4rem;
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--tansition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--background-color);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ----------For Medium Devices ----------------*/
+@media screen and (max-width: 1024px){  
+  .container{
+    width: var(--container-width-md);
+}
+
+.section {
+  margin-top: 6rem;
+}
+}
+
+@media screen and (max-width: 600px){  
+  .container{
+    width: var(--container-width-sm);
+}
+
+.section > h2 {
+  margin-bottom: 2rem;
+}
 }
