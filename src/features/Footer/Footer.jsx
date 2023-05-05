@@ -35,7 +35,8 @@ function Footer() {
         <a href='https://twitter.com/last_matrix' target='_blank' rel="noreferrer"><IoLogoTwitter /></a>
       </div>
       <div className="footer__credit">
-        <small> < FaCreativeCommons /> Thanks to <a href='https://dribbble.com/Alien_pixels' target='_blank' rel="noreferrer">Alien_pixels</a> for Design</small>
+      < FaCreativeCommons className='footer__icon' />
+        <small> Thanks to <a href='https://dribbble.com/Alien_pixels' target='_blank' rel="noreferrer">Alien_pixels</a> for Design</small>
       </div>
     </footer>
   )
