@@ -3,7 +3,7 @@ import './endorsement.css'
 
 function Endorsement() {
   return (
-    <div>Endorsement</div>
+    <section id = 'endorsement'>Endorsement</section>
   )
 }
 
