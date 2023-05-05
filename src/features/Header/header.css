@@ -62,6 +62,10 @@ padding: 5rem 1.5rem 1.5rem 1.5rem;
   }
 }
 
+
+/* ----------For Small Devices ----------------*/
+
+
 @media screen and (max-width: 600px){  
  header{
       height: 100vh;
