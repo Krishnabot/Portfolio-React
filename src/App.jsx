@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './features/Header/Header'
 import Nav from './features/Nav/Nav'
 import About from './features/About/About'
-import Experience from './features/Experience/Experience'
+import Skills from './features/Skill/Skills'
 import Services from './features/Services/Services'
 import Portfolio from './features/Portfolio/Portfolio'
 import Contact from './features/Contact/Contact'
@@ -15,7 +15,7 @@ function App() {
       < Header />
       <Nav />
       <About />
-      <Experience />
+      <Skills />
       <Services />
       <Portfolio />
       <Contact />

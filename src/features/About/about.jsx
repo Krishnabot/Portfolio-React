@@ -2,8 +2,9 @@ import React from 'react'
 import './about.css'
 import Self_Image from '../../assets/Image/self_Image.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {AiOutlineFieldTime} from 'react-icons/ai'
 import {VscFolderLibrary} from 'react-icons/vsc'
+
 
 const About = () => {
   return (
@@ -24,17 +25,17 @@ const About = () => {
             <article className='about__card'>
               <FaAward  className='about__card-icon' />
               <h5>Experience</h5>
-              <small> 2 + years working</small>
+              <small> 2 + years</small>
             </article>
             <article className='about__card'>
-              <FiUsers  className='about__card-icon' />
-              <h5>Clients</h5>
-              <small> 100+ clients world wide</small>
+              <AiOutlineFieldTime  className='about__card-icon' />
+              <h5>Coding</h5>
+              <small> 1200+ Hours </small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary  className='about__card-icon' />
               <h5>Projects</h5>
-              <small> 100 + completed</small>
+              <small> 20 + completed</small>
             </article>
           </div>
           <p>
