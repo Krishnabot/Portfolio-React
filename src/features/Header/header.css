@@ -13,7 +13,7 @@ header {
 .header__btn {
 margin-top: 2.5rem;
 display: flex;
-gap: 1.5rem;
+gap: 1.2rem;
 justify-content: center;
 }
 
@@ -21,7 +21,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
@@ -34,11 +34,11 @@ width: 22rem;
 height: 30rem;
 position: absolute;
 left: calc(50% - 11rem);
-bottom: 0;
 margin-top: 4rem;
 border-radius: 12rem 12rem 0 0;
 overflow: hidden;
-padding: 5rem 1.5rem 1.5rem 1.5rem;
+padding: 5rem 1.5rem 1.5rem 1.5rem; 
+
 }
 
 

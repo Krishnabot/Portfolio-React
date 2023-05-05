@@ -8,7 +8,7 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem
+    gap: 1.2rem;
 }
 
 .contact__option {
@@ -26,16 +26,17 @@
 }
 
 .contact__option-icon{
-    font-size: 0.7rem;
+    font-size: 2rem;
     display: inline-block;
-    font-size: 0.8rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     gap: 1.2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 input, textarea {
@@ -46,6 +47,10 @@ input, textarea {
     border: 1px solid var(--color-primary);
     resize: none;
     color: var(--color-white);
+}
+
+form > button {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ----------For Medium Devices ----------------*/

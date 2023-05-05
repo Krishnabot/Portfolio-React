@@ -54,7 +54,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Implementing security measures </p>
+              <p>Implementing security measures to protect from threats and attacks</p>
             </li>
             <li>
               <BiCheck className='services__list-icon'/>

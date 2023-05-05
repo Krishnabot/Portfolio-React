@@ -9,7 +9,6 @@ import './footer.css'
 function Footer() {
   return (
     <footer>
-      <a href='#' className='footer__logo'>Krishna</a>
       <ul className='permalinks'>
         <li>
           <a href='#'>Home</a>
@@ -18,7 +17,7 @@ function Footer() {
           <a href='#about'>About</a>
         </li>
         <li>
-          <a href='#experience'>Experience</a>
+          <a href='#experience'>Skills</a>
         </li>
         <li>
           <a href='#services'>Services</a>
@@ -31,12 +30,12 @@ function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href='https://www.facebook.com/wolverinekrishna/' target='_blank'><FaFacebookF /></a>
-        <a href='https://www.instagram.com/eastern_anarchy/' target='_blank'><FiInstagram /></a>
-        <a href='https://twitter.com/last_matrix' target='_blank'><IoLogoTwitter /></a>
+        <a href='https://www.facebook.com/wolverinekrishna/' target='_blank' rel="noreferrer"><FaFacebookF /></a>
+        <a href='https://www.instagram.com/eastern_anarchy/' target='_blank' rel="noreferrer"><FiInstagram /></a>
+        <a href='https://twitter.com/last_matrix' target='_blank' rel="noreferrer"><IoLogoTwitter /></a>
       </div>
       <div className="footer__credit">
-        <small> < FaCreativeCommons /> Thanks to <a href='https://dribbble.com/Alien_pixels' target='_blank'>Alien_pixels</a> for Design</small>
+        <small> < FaCreativeCommons /> Thanks to <a href='https://dribbble.com/Alien_pixels' target='_blank' rel="noreferrer">Alien_pixels</a> for Design</small>
       </div>
     </footer>
   )

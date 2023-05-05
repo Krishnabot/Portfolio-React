@@ -57,6 +57,10 @@ h5
 }
 h1 {
   font-size: 2.5rem;
+} 
+
+h5{
+  font-size: 1rem;
 }
 
 section {
@@ -114,6 +118,11 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+    color: var(--color-white); /* Replace #999 with the color you want to use */
 }
 
 /* ----------For Medium Devices ----------------*/
