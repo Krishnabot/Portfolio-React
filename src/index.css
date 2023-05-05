@@ -72,6 +72,10 @@ section > h2 {
   margin-bottom:  3rem;
 }
 
+section > h3 {
+  text-align: center;
+}
+
 .text-light{
   color: var(--ccolor-light);
 }
