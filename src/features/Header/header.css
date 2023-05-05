@@ -28,6 +28,10 @@ justify-content: center;
 
 }
 
+.header__socials-icon{
+    font-size: 1.6rem;
+}
+
 .myself {
 background: linear-gradient(var(--color-primary), transparent);
 width: 22rem;
