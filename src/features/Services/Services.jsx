@@ -15,23 +15,23 @@ function Services() {
           </div>
           <ul className='services__list'>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Conducting user research to inform design decisions.</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Creating intuitive information architecture.</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Developing effective wireframes and prototypes.</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Designing aesthetically pleasing interfaces.</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Creating engaging and user-friendly interactions.</p>
             </li>
           </ul>
@@ -45,28 +45,28 @@ function Services() {
           </div>
           <ul className='services__list'>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Creating websites that are optimized for all devices and screen sizes</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Creating optimized responsive websites </p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Building websites that can handle growth and increased traffic</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Building Scalable websites to handle growth and  traffic</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Implementing security measures to protect websites from threats and attacks</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Implementing security measures </p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Developing websites that load quickly and provide a seamless user experience</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Creating Fast websites with seamless user experience.</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Working with content management systems such as WordPress, Drupal, or Joomla to build and maintain websites</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Working with CMS to build and maintain websites</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p> Creating customized websites tailored to the specific needs of clients</p>
+              <BiCheck className='services__list-icon'/>
+              <p> Creating tailored webapps for the needs of clients</p>
             </li>
           </ul>
         </div>
@@ -79,24 +79,24 @@ function Services() {
           </div>
           <ul className='services__list'>
             <li>
-              <BiCheck className='Services__list-icon'/>
+              <BiCheck className='services__list-icon'/>
               <p>Creating engaging and high-quality written content</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Ensuring accuracy, clarity, and consistency in written content</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Ensuring accuracy, clarity, and consistency in  content</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p> Creating visually appealing graphics and images to accompany written content</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Creating eye-catching visuals for content</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Optimizing written content for search engines to improve visibility and drive traffic</p>
+              <BiCheck className='services__list-icon'/>
+              <p>Optimization  for SEO to increase visibility and traffic</p>
             </li>
             <li>
-              <BiCheck className='Services__list-icon'/>
-              <p>Using data analytics to measure the effectiveness of content</p>
+              <BiCheck className='services__list-icon'/>
+              <p>data analytics to measure the effectiveness of content</p>
             </li>
           </ul>
         </div>
