@@ -15,4 +15,8 @@
   --color-primary-variant: rgbs(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 80%;
+  --container-width-sm: 90%;
 }
