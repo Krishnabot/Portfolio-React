@@ -1,22 +1,39 @@
-import React from 'react'
-import {AiOutlineHome, AiOutlineUser, AiOutlineUnorderedList} from 'react-icons/ai'
-import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
+import React, { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser, AiOutlineUnorderedList } from 'react-icons/ai';
+import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { RiServiceLine } from 'react-icons/ri';
+import './nav.css';
 
+const NAV_ITEMS = [
+  { id: '#', icon: <AiOutlineHome /> },
+  { id: '#about', icon: <AiOutlineUser /> },
+  { id: '#experience', icon: <AiOutlineUnorderedList /> },
+  { id: '#services', icon: <RiServiceLine /> },
+  { id: '#portfolio', icon: <BiBook /> },
+  { id: '#contact', icon: <BiMessageSquareDetail /> },
+];
 
-import './nav.css'
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#');
 
-function Nav() {
+  const handleNavClick = (id) => {
+    setActiveNav(id);
+  };
+
   return (
     <nav>
-      <a href='#' className='active'><AiOutlineHome /></a>
-      <a href='#about'><AiOutlineUser/></a>
-      <a href='#experience'><AiOutlineUnorderedList /></a>
-      <a href='#portfolio'><BiBook /></a>  
-      <a href='#services'><RiServiceLine /></a>  
-      <a href='#contact'><BiMessageSquareDetail /></a> 
-       </nav>
-  )
-}
+      {NAV_ITEMS.map((item) => (
+        <a
+          key={item.id}
+          href={item.id}
+          onClick={() => handleNavClick(item.id)}
+          className={activeNav === item.id ? 'active' : ''}
+        >
+          {item.icon}
+        </a>
+      ))}
+    </nav>
+  );
+};
 
-export default Nav
+export default Nav;
