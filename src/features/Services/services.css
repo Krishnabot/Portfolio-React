@@ -51,7 +51,6 @@
   font-size: 0.9rem;
 }
 
-
 /* ----------For Medium Devices ---------------- */
 @media screen and (max-width: 1024px) {
   .services__container {
@@ -63,7 +62,6 @@
     height: auto;
   }
 }
-
 
 /* ----------For Small Devices ---------------- */
 

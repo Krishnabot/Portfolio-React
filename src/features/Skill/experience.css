@@ -40,7 +40,6 @@
   color: var(--color-primary);
 }
 
-
 /* ----------For Medium Devices ---------------- */
 @media screen and (max-width: 1024px) {
   .experience__container {

@@ -32,7 +32,6 @@
   margin-bottom: 1rem;
 }
 
-
 /* ----------For Medium Devices ---------------- */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
@@ -40,7 +39,6 @@
     gap: 1.2rem;
   }
 }
-
 
 /* ----------For Small Devices ---------------- */
 
