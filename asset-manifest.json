@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.2b41aeaa.css",
+    "main.js": "/Portfolio-React/static/js/main.7719a931.js",
+    "static/media/Foodie_App_snapshot.png": "/Portfolio-React/static/media/Foodie_App_snapshot.e17e5f11d455271c603d.png",
+    "static/media/selfImage.png": "/Portfolio-React/static/media/selfImage.d12e263dd71fc1a5e9bb.png",
+    "static/media/cointracker_snapshot.png": "/Portfolio-React/static/media/cointracker_snapshot.15b5d2687da83827d22f.png",
+    "static/media/poetry_slam_snapshot.png": "/Portfolio-React/static/media/poetry_slam_snapshot.81b58282e075bea0a822.png",
+    "static/media/Space-Traveller-Hub_snapshot.png": "/Portfolio-React/static/media/Space-Traveller-Hub_snapshot.43ad85913186439c8e7c.png",
+    "static/media/Appointmentt.png": "/Portfolio-React/static/media/Appointmentt.c0247125b59e0bc1330a.png",
+    "static/media/selfImage.jpg": "/Portfolio-React/static/media/selfImage.b473eff19568ba7daffa.jpg",
+    "static/media/expense-tracker_snapshot.png": "/Portfolio-React/static/media/expense-tracker_snapshot.89d2cbdee754f2cf80e4.png",
+    "static/media/Resume.pdf": "/Portfolio-React/static/media/Resume.c19a8c4ce6109812cbbf.pdf",
+    "index.html": "/Portfolio-React/index.html",
+    "main.2b41aeaa.css.map": "/Portfolio-React/static/css/main.2b41aeaa.css.map",
+    "main.7719a931.js.map": "/Portfolio-React/static/js/main.7719a931.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b41aeaa.css",
+    "static/js/main.7719a931.js"
+  ]
+}
