@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --background-color: #1f1f38;
   --backgrond-color-variant: #2c2c6c;
@@ -18,9 +22,7 @@
   --color-primary-variant: rgbs(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-
   --tansition: all 400ms ease;
-
   --container-width-lg: 75%;
   --container-width-md: 80%;
   --container-width-sm: 90%;
@@ -28,11 +30,6 @@
 
 html {
   scroll-behavior: smooth;
-
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -42,6 +39,7 @@ body {
   line-height: 1.8;
   background-image: url(../src/assets/Image/bg-texture.png);
 }
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -51,36 +49,38 @@ h1,
 h2,
 h3,
 h4,
-h5
-{
+h5 {
   font-weight: 500;
 }
+
 h1 {
   font-size: 2.5rem;
-} 
+}
 
-h5{
+h5 {
   font-size: 1rem;
 }
 
 section {
   margin-top: 8rem;
 }
-section > h2, section > h5 {
-  text-align:  center;
-  color : var(--color-light);
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
 }
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom:  3rem;
+  margin-bottom: 3rem;
 }
 
 section > h3 {
   text-align: center;
 }
 
-.text-light{
+.text-light {
   color: var(--ccolor-light);
 }
 
@@ -94,8 +94,8 @@ a:hover {
 }
 
 .btn {
-  width : max-content;
-  display:  inline-block;
+  width: max-content;
+  display: inline-block;
   color: var(--color-primary);
   border-radius: 0.4rem;
   padding: 0.75rem 1.2rem;
@@ -114,6 +114,7 @@ a:hover {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
 img {
   display: block;
   width: 100%;
@@ -122,26 +123,26 @@ img {
 
 ::placeholder {
   font-family: 'Poppins', sans-serif;
-    color: var(--color-white); /* Replace #999 with the color you want to use */
+  color: var(--color-white); /* Replace #999 with the color you want to use */
 }
 
-/* ----------For Medium Devices ----------------*/
-@media screen and (max-width: 1024px){  
-  .container{
+/* ----------For Medium Devices ---------------- */
+@media screen and (max-width: 1024px) {
+  .container {
     width: var(--container-width-md);
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
 }
 
-.section {
-  margin-top: 6rem;
-}
-}
-
-@media screen and (max-width: 600px){  
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-sm);
-}
+  }
 
-.section > h2 {
-  margin-bottom: 2rem;
-}
+  .section > h2 {
+    margin-bottom: 2rem;
+  }
 }

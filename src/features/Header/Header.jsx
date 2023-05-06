@@ -1,27 +1,27 @@
-import React from 'react'
-import './header.css'
-import Button from './Button'
-import Socials from './Socials'
-import Self_Image from '../../assets/Image/Self_Image.png'
+import React from 'react';
+import './header.css';
+import Button from './Button';
+import Socials from './Socials';
+import selfImage from '../../assets/Image/selfImage.png';
 
 function Header() {
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>Hello I&apos;m</h5>
         <h1>Krishna</h1>
-        <h5 className='text-light'>Full Stack Developer</h5>
-        <Button  />
+        <h5 className="text-light">Full Stack Developer</h5>
+        <Button />
         <Socials />
 
         <div className="myself">
-          <img src={Self_Image} alt='Self' />
+          <img src={selfImage} alt="Self" />
         </div>
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
 
-      </header>
-  )
+    </header>
+  );
 }
 
-export default Header
+export default Header;

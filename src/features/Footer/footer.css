@@ -1,83 +1,77 @@
 footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size:0.9rem;
-    margin-top: 7rem;
+  background: var(--color-primary);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
 }
 
 footer a {
-    color: var(--background-color);
+  color: var(--background-color);
 }
 
 .footer__logo {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
 }
 
 .permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
 }
 
 .footer__socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .footer__socials a {
-    background: var(--background-color);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
+  background: var(--background-color);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--background-color);
-    border-color: var(--background-color);
+  background: transparent;
+  color: var(--background-color);
+  border-color: var(--background-color);
 }
 
 .footer__credit {
-    margin-bottom: 4rem;
-    color: var(--background-color);
-    font-size: 1rem;
+  margin-bottom: 4rem;
+  color: var(--background-color);
+  font-size: 1rem;
 }
 
-.footer__icon{
-    font-size: 1.7rem;
+.footer__icon {
+  font-size: 1.7rem;
 }
+
 .footer__credit > small {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
 
-/* ----------For Medium Devices ----------------*/
-@media screen and (max-width: 1024px){  
+/* ----------For Small Devices ---------------- */
 
-}
-
-
-/* ----------For Small Devices ----------------*/
-
-
-@media screen and (max-width: 600px){  
-.permalinks {
+@media screen and (max-width: 600px) {
+  .permalinks {
     flex-direction: column;
     gap: 1.5rem;
-}
-.footer__socials {
+  }
+
+  .footer__socials {
     margin-bottom: 2.5rem;
-}
-  
+  }
 }

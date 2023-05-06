@@ -1,76 +1,74 @@
 .services__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
 
 .services {
-    background: var(--backgrond-color-variant);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
-    height: fit-content;
-    transition: var(--tansition);
+  background: var(--backgrond-color-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--tansition);
 }
 
-.services:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+.services:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .services__head {
-    background: var(--color-primary);
-    padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .services__head h3 {
-    color: var(--background-color);
-    font-size: 1rem;
-    text-align: center;
+  color: var(--background-color);
+  font-size: 1rem;
+  text-align: center;
 }
 
 .services__list {
-    padding:  1rem;
+  padding: 1rem;
 }
 
 .services__list li {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .services__list-icon {
-    color: var(--color-primary);
-    margin-top: 4px;
+  color: var(--color-primary);
+  margin-top: 4px;
 }
 
 .services__list p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 
-/* ----------For Medium Devices ----------------*/
-@media screen and (max-width: 1024px){  
-    .services__container  {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
+/* ----------For Medium Devices ---------------- */
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 
-    .services {
-        height: auto;
-    }
+  .services {
+    height: auto;
+  }
 }
 
 
-/* ----------For Small Devices ----------------*/
+/* ----------For Small Devices ---------------- */
 
-
-@media screen and (max-width: 600px){  
-    .services__container {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-  
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
