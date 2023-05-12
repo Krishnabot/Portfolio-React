@@ -88,7 +88,6 @@
   width: 100%;
   position: absolute;
   z-index: 20;
-  display: none;
   top: 50%;
   background: var(--backgrond-color-variant);
   padding: 100px 20px;
@@ -108,7 +107,7 @@
   transform: translate(0%, -50%);
   transition: all 0.8s ease;
   background-color: var(--background-color);
-  opacity: 80%;
+  opacity: 85%;
 }
 
 .card-top {

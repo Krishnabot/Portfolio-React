@@ -14,20 +14,20 @@ const data = [
     title: 'Foodie App',
     github: 'https://github.com/Krishnabot/JavaScript-CapStone',
     demo: 'https://krishnabot.github.io/JavaScript-CapStone/dist/',
-    short_description:
+    shortDescription:
     'A daily selection of personalized Menus; no accounts or sign-ups required.',
-  stacks: ['JavaScipt', 'css', 'API'],
+    stacks: ['JavaScipt', 'css', 'API'],
 
-      },
+  },
   {
     id: 2,
     image: CointrackerSnapShot,
     title: 'Coin Tracker',
     github: 'https://github.com/Krishnabot/CoinTrackers',
     demo: 'https://zingy-eclair-341d70.netlify.app/',
-    short_description:
+    shortDescription:
     'An updates  of crytocoins about their market and health; no accounts or sign-ups required.',
-    stacks: ['React', 'Redux','API'],
+    stacks: ['React', 'Redux', 'API'],
 
   },
   {
@@ -36,7 +36,7 @@ const data = [
     title: 'Expense Tracker',
     github: 'https://github.com/Krishnabot/Expense-Tracker',
     demo: 'https://expense-tracker-i4p6.onrender.com/',
-    short_description:
+    shortDescription:
     'A mobile web application where users can track their expenses and  manage their budget',
     stacks: ['Rails', 'Postgresql', 'scss'],
 
@@ -47,7 +47,7 @@ const data = [
     title: 'Poetry Slam',
     github: 'https://github.com/Krishnabot/Capstone-Project-Poetry-Page',
     demo: 'https://krishnabot.github.io/Capstone-Project-Poetry-Page/',
-    short_description:
+    shortDescription:
     'A responsive Website containing about and home page of POETRY SLAM 2020',
     stacks: ['JavaScript', 'css', 'HTML'],
 
@@ -58,9 +58,9 @@ const data = [
     title: 'Space Travellers Hub',
     github: 'https://github.com/Krishnabot/Space-Traveler-s-Hub',
     demo: 'https://mellifluous-naiad-7463d1.netlify.app/',
-    short_description:
+    shortDescription:
     'A web application for a company that provides commercial and scientific space travel services.',
-  stacks: ['React', 'Redux', 'API'],
+    stacks: ['React', 'Redux', 'API'],
 
   },
   {
@@ -69,9 +69,9 @@ const data = [
     title: 'Coders Hub',
     github: 'https://github.com/manq2010/Book-An-Appointment-Front-End',
     demo: 'https://codershub-8u8o.onrender.com/',
-    short_description:
+    shortDescription:
     'A web application for searching and booking online mentors for various topics.',
-  stacks: ['React', 'Redux', 'Rails'],
+    stacks: ['React', 'Redux', 'Rails'],
 
   },
 ];
@@ -84,20 +84,20 @@ function Portfolio() {
       <div className="container portfolio__container">
         {
         data.map(({
-          id, image, title, github, demo, short_description, stacks
+          id, image, title, github, demo, shortDescription, stacks,
         }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-img">
-              <div className='card-wrapper'>
+              <div className="card-wrapper">
                 <div className="card-top">
-                <img src={image} alt={title}  className='image'/>
+                  <img src={image} alt={title} className="image" />
                 </div>
                 <div className="card-bottom">
-                  <h5>{short_description}</h5>
-                  <div className='stacks'>
-                  {stacks.map((stack, index) => (
-                <span className='button btn-primary' key={index}>{stack}</span>
-              ))}
+                  <h5>{shortDescription}</h5>
+                  <div className="stacks">
+                    {stacks.map((stack) => (
+                      <span className="button btn-primary" key={stack.id}>{stack}</span>
+                    ))}
                   </div>
 
                 </div>
