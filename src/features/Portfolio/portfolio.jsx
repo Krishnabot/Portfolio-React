@@ -38,7 +38,7 @@ const data = [
     demo: 'https://expense-tracker-i4p6.onrender.com/',
     short_description:
     'A mobile web application where users can track their expenses and  manage their budget',
-    stacks: ['Ruby on Rails', 'Postgresql', 'scss'],
+    stacks: ['Rails', 'Postgresql', 'scss'],
 
   },
   {
@@ -49,7 +49,7 @@ const data = [
     demo: 'https://krishnabot.github.io/Capstone-Project-Poetry-Page/',
     short_description:
     'A responsive Website containing about and home page of POETRY SLAM 2020',
-    stacks: ['JavaScript', 'css', 'Bootstrap'],
+    stacks: ['JavaScript', 'css', 'HTML'],
 
   },
   {
@@ -71,7 +71,7 @@ const data = [
     demo: 'https://codershub-8u8o.onrender.com/',
     short_description:
     'A web application for searching and booking online mentors for various topics.',
-  stacks: ['React', 'Redux', 'Ruby on Rails'],
+  stacks: ['React', 'Redux', 'Rails'],
 
   },
 ];
@@ -88,13 +88,20 @@ function Portfolio() {
         }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-img">
-              <img src={image} alt="Foodie App SnbapShot" />
-              <h5>{short_description}</h5>
-            <div className='stacks'>
-            {stacks.map((stack, index) => (
-                <span type='button' key={index}>{stack}</span>
+              <div className='card-wrapper'>
+                <div className="card-top">
+                <img src={image} alt={title}  className='image'/>
+                </div>
+                <div className="card-bottom">
+                  <h5>{short_description}</h5>
+                  <div className='stacks'>
+                  {stacks.map((stack, index) => (
+                <span className='button btn-primary' key={index}>{stack}</span>
               ))}
-            </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
             <h3>{title}</h3>
 
