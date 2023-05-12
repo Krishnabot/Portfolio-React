@@ -64,7 +64,6 @@
   margin-bottom: 1rem;
 }
 
-
 /* -------------- Card ------------------ */
 
 .image {
@@ -124,7 +123,6 @@
   border-radius: 8px;
   margin-right: 1rem;
 }
-
 
 /* ----------For Medium Devices ---------------- */
 @media screen and (max-width: 1024px) {
