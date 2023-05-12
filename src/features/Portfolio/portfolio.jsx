@@ -14,13 +14,21 @@ const data = [
     title: 'Foodie App',
     github: 'https://github.com/Krishnabot/JavaScript-CapStone',
     demo: 'https://krishnabot.github.io/JavaScript-CapStone/dist/',
-  },
+    short_description:
+    'A daily selection of personalized Menus; no accounts or sign-ups required.',
+  stacks: ['JavaScipt', 'css', 'API'],
+
+      },
   {
     id: 2,
     image: CointrackerSnapShot,
     title: 'Coin Tracker',
     github: 'https://github.com/Krishnabot/CoinTrackers',
     demo: 'https://zingy-eclair-341d70.netlify.app/',
+    short_description:
+    'An updates  of crytocoins about their market and health; no accounts or sign-ups required.',
+    stacks: ['React', 'Redux','API'],
+
   },
   {
     id: 3,
@@ -28,6 +36,10 @@ const data = [
     title: 'Expense Tracker',
     github: 'https://github.com/Krishnabot/Expense-Tracker',
     demo: 'https://expense-tracker-i4p6.onrender.com/',
+    short_description:
+    'A mobile web application where users can track their expenses and  manage their budget',
+    stacks: ['Ruby on Rails', 'Postgresql', 'scss'],
+
   },
   {
     id: 4,
@@ -35,6 +47,10 @@ const data = [
     title: 'Poetry Slam',
     github: 'https://github.com/Krishnabot/Capstone-Project-Poetry-Page',
     demo: 'https://krishnabot.github.io/Capstone-Project-Poetry-Page/',
+    short_description:
+    'A responsive Website containing about and home page of POETRY SLAM 2020',
+    stacks: ['JavaScript', 'css', 'Bootstrap'],
+
   },
   {
     id: 5,
@@ -42,6 +58,10 @@ const data = [
     title: 'Space Travellers Hub',
     github: 'https://github.com/Krishnabot/Space-Traveler-s-Hub',
     demo: 'https://mellifluous-naiad-7463d1.netlify.app/',
+    short_description:
+    'A web application for a company that provides commercial and scientific space travel services.',
+  stacks: ['React', 'Redux', 'API'],
+
   },
   {
     id: 6,
@@ -49,6 +69,10 @@ const data = [
     title: 'Coders Hub',
     github: 'https://github.com/manq2010/Book-An-Appointment-Front-End',
     demo: 'https://codershub-8u8o.onrender.com/',
+    short_description:
+    'A web application for searching and booking online mentors for various topics.',
+  stacks: ['React', 'Redux', 'Ruby on Rails'],
+
   },
 ];
 
@@ -60,13 +84,20 @@ function Portfolio() {
       <div className="container portfolio__container">
         {
         data.map(({
-          id, image, title, github, demo,
+          id, image, title, github, demo, short_description, stacks
         }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-img">
               <img src={image} alt="Foodie App SnbapShot" />
+              <h5>{short_description}</h5>
+            <div className='stacks'>
+            {stacks.map((stack, index) => (
+                <span type='button' key={index}>{stack}</span>
+              ))}
+            </div>
             </div>
             <h3>{title}</h3>
+
             <div className="portfolio__item-links">
               <a href={github} className="btn" target="_blank" rel="noreferrer">Github</a>
               <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
