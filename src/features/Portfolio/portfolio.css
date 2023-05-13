@@ -96,7 +96,7 @@
 
 .card-wrapper:hover .image {
   filter: blur(1.4px);
-  transform: scale(1.5);
+  transform: scale(1.2);
   overflow: hidden;
   transition: all 0.3s linear;
   box-shadow: inset -6px -1px 32px 0 var(--backgrond-color-variant);
