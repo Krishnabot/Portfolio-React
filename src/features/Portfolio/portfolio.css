@@ -1,0 +1,141 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio__item {
+  position: relative;
+  background: var(--backgrond-color-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--tansition);
+}
+
+.portfolio__item:hover {
+  background: transparent;
+  border-color: var(--backgrond-color-variant);
+}
+
+.portfolio__item-img {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio__item:hover .portfolio__info {
+  opacity: 1;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__stacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.portfolio__stacks span {
+  background: #fff;
+  color: #000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.portfolio__item-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* -------------- Card ------------------ */
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 20;
+  box-shadow: 10px 10px 53px 0 rgba(0, 0, 0, 0.49);
+}
+
+.card-wrapper {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 53px 0 var(--backgrond-color-variant);
+}
+
+.card-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  background: var(--backgrond-color-variant);
+  padding: 100px 20px;
+  color: #fff;
+  transform: translate(100%, -50%);
+}
+
+.card-wrapper:hover .image {
+  filter: blur(1.4px);
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: all 0.3s linear;
+  box-shadow: inset -6px -1px 32px 0 var(--backgrond-color-variant);
+}
+
+.card-wrapper:hover .card-bottom {
+  transform: translate(0%, -50%);
+  transition: all 0.8s ease;
+  background-color: var(--background-color);
+  opacity: 85%;
+}
+
+.card-top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button {
+  align-items: center;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+/* ----------For Medium Devices ---------------- */
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* ----------For Small Devices ---------------- */
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
