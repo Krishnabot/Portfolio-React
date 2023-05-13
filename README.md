@@ -21,7 +21,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
@@ -31,8 +30,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -40,11 +37,9 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Single Page Application with an easy to use nav dock]**
 - **[EmailJs is used as mail server]**
@@ -95,7 +90,6 @@ To run the project, execute the following command:
 ```sh
   npm start
 ```
---->
 
 ### Run tests
 
@@ -158,8 +152,6 @@ Feel free to check the [issues page](https://github.com/Krishnabot/Portfolio-Rea
 If you like this project Please give a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
