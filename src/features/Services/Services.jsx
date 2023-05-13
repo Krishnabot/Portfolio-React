@@ -46,15 +46,15 @@ function Services() {
           <ul className="services__list">
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Creating optimized responsive websites </p>
+              <p>Creating optimized responsive websites.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Building Scalable websites to handle growth and  traffic</p>
+              <p>Building Scalable websites to handle growth and  traffic.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Implementing security measures to protect from threats and attacks</p>
+              <p>Implementing security measures to protect from threats and attacks.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
@@ -62,11 +62,11 @@ function Services() {
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Working with CMS to build and maintain websites</p>
+              <p>Working with CMS to build and maintain websites.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p> Creating tailored webapps for the needs of clients</p>
+              <p> Creating tailored webapps for the needs of clients.</p>
             </li>
           </ul>
         </div>
@@ -80,23 +80,23 @@ function Services() {
           <ul className="services__list">
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Creating engaging and high-quality written content</p>
+              <p>Creating engaging and high-quality written content.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Ensuring accuracy, clarity, and consistency in  content</p>
+              <p>Ensuring accuracy, clarity, and consistency in  content.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Creating eye-catching visuals for content</p>
+              <p>Creating eye-catching visuals for content.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>Optimization  for SEO to increase visibility and traffic</p>
+              <p>Optimization  for SEO to increase visibility and traffic.</p>
             </li>
             <li>
               <BiCheck className="services__list-icon" />
-              <p>data analytics to measure the effectiveness of content</p>
+              <p>Data analytics to measure the effectiveness of content.</p>
             </li>
           </ul>
         </div>

@@ -37,10 +37,10 @@ const About = () => (
           </article>
         </div>
         <p>
-          I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded,
-          don&apos;t hestiate to contact me.
+        I’m a software developer! I can help you build a product,
+          feature, or website. Look through some of my work and experience!
+          If you like what you see and have a project you need to code,
+          don&apos;t hesitate to contact me.
         </p>
 
         <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>

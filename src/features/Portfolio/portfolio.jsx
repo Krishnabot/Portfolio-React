@@ -15,7 +15,7 @@ const data = [
     github: 'https://github.com/Krishnabot/JavaScript-CapStone',
     demo: 'https://krishnabot.github.io/JavaScript-CapStone/dist/',
     shortDescription:
-    'A daily selection of personalized Menus; no accounts or sign-ups required.',
+    'A daily selection of personalized menus. No accounts or sign-ups are required.',
     stacks: ['JavaScipt', 'css', 'API'],
 
   },
@@ -26,7 +26,7 @@ const data = [
     github: 'https://github.com/Krishnabot/CoinTrackers',
     demo: 'https://zingy-eclair-341d70.netlify.app/',
     shortDescription:
-    'An updates  of crytocoins about their market and health; no accounts or sign-ups required.',
+    'Updates of crypto coins about their market and health. No accounts or sign-ups required.',
     stacks: ['React', 'Redux', 'API'],
 
   },
@@ -48,7 +48,7 @@ const data = [
     github: 'https://github.com/Krishnabot/Capstone-Project-Poetry-Page',
     demo: 'https://krishnabot.github.io/Capstone-Project-Poetry-Page/',
     shortDescription:
-    'A responsive Website containing about and home page of POETRY SLAM 2020',
+    'A responsive Website providing  information on POETRY SLAM 2020',
     stacks: ['JavaScript', 'css', 'HTML'],
 
   },
@@ -59,7 +59,7 @@ const data = [
     github: 'https://github.com/Krishnabot/Space-Traveler-s-Hub',
     demo: 'https://mellifluous-naiad-7463d1.netlify.app/',
     shortDescription:
-    'A web application for a company that provides commercial and scientific space travel services.',
+    'A web-app for a company that provides commercial and scientific space travel services.',
     stacks: ['React', 'Redux', 'API'],
 
   },
@@ -70,7 +70,7 @@ const data = [
     github: 'https://github.com/manq2010/Book-An-Appointment-Front-End',
     demo: 'https://codershub-8u8o.onrender.com/',
     shortDescription:
-    'A web application for searching and booking online mentors for various topics.',
+    'A web-app for searching and booking online mentors for various topics.',
     stacks: ['React', 'Redux', 'Rails'],
 
   },

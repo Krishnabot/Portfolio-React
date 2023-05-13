@@ -33,11 +33,11 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
+      <h3>
+      If you have an application you are interested in developing, a feature
+        that you need to build, or a project that needs coding. I’d love to help
         with it
-      </h5>
+      </h3>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
@@ -89,7 +89,7 @@ const Contact = () => {
                 <BsFillChatHeartFill className="smily-icon" />
                 <BsFillChatHeartFill className="smily-icon" />
               </div>
-              <h5>Thank you for contacting. I will get back to you soon.</h5>
+              <h5>Thank you for contacting me. I will get back to you soon.</h5>
             </div>
           )}
         </form>
