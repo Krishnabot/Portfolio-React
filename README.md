@@ -22,9 +22,9 @@
 - [📝 License](#license)
 
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Portfolio  <a name="about-project"></a>
 
-**[Porfolio]** is my personal portfolio project  where I introduce myself and get a chance to show what interesting stuffs I have been building. 
+**Porfolio** is my personal portfolio project  where I introduce myself and get a chance to show what interesting stuffs I have been building. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
