@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaCreativeCommons } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
-import { IoLogoTwitter } from 'react-icons/io';
+import { RiTwitterXFill } from 'react-icons/ri';
 import './footer.css';
 
 function Footer() {
@@ -30,7 +30,7 @@ function Footer() {
       <div className="footer__socials">
         <a href="https://www.facebook.com/wolverinekrishna/" target="_blank" rel="noreferrer" aria-label="Facebook"><FaFacebookF /></a>
         <a href="https://www.instagram.com/eastern_anarchy/" target="_blank" rel="noreferrer" aria-label="Instagram"><FiInstagram /></a>
-        <a href="https://twitter.com/last_matrix" target="_blank" rel="noreferrer" aria-label="Twitter"><IoLogoTwitter /></a>
+        <a href="https://twitter.com/last_matrix" target="_blank" rel="noreferrer" aria-label="Twitter"><RiTwitterXFill /></a>
       </div>
       <div className="footer__credit">
         <FaCreativeCommons className="footer__icon" />
